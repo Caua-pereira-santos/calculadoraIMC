@@ -62,6 +62,30 @@ namespace calculadoraIMC
                 Console.WriteLine("Obesidade III (Mórbida)");
             }
 
+            if (altura >=150 && altura <160)
+
+            {
+                Console.WriteLine("O seu peso ideal está entre 51.3 a 72.3");
+            }
+
+            else if (altura >=160 && altura <170)
+
+            {
+                Console.WriteLine("O seu peso ideal está entre 59.8 a 81.0");
+            }
+
+            
+            else if (altura >=170 && altura <180)
+
+            {
+                Console.WriteLine("O seu peso ideal está entre 72.7 a 89.9");
+            }
+
+            else if (altura >=180 && altura <190)
+
+            {
+                Console.WriteLine("O seu peso ideal está entre 89.9 a 100.7");
+            }
 
            
 
